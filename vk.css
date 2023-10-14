@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+}
+body{
+    background-color: LightCyan;
+}
+.navBar{
+    background-color: SteelBlue;
+    height: 50px;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+    height: 50px;
+    margin-left: 200;
+    align-items: center;
+}
+.navVK{
+    color: aliceblue; 
+    font-size: 30px;
+}
+.navSearch input{
+    background-color: LightSlateGray;
+    color: #336594;
+    border-radius: 20px;
+    padding: 10px;
+}
+::placeholder{
+    color: aliceblue;
+}
+.mainDiv{
+    margin-top: 20px;
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 70%;
+    display: flex;
+    margin-left: 300px;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: SlateGray;
+}
+.menu1{
+    width: 13%;
+}
+.menu2{
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+    /* border: 1px solid black; */
+}
+.image{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    border: 1px solid LightGrey;
+    border-radius: 3%;
+}
+.image1{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    width: 275px;
+}
+.friends{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid LightGrey;
+    border-radius: 3%;
+    margin-top: 20px;
+    background-color: aliceblue;
+}
+.text{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.photoM{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 15px;
+}
+.friendsPhoto{
+    display: flex;
+    flex-direction: column;
+}
+.menu3{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    /* border: 1px solid black; */
+}
+.chislo{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+.chislo1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.menu4{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-around;
+}
